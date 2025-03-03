@@ -1,0 +1,45 @@
+.card-container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-logo {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .status.verified {
+    color: green;
+  }
+  
+  .status.rejected {
+    color: red;
+  }
+  
+  .status.pending {
+    color: gray;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
